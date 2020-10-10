@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/eriksalto/OneDrive - Westchester Community College/Freelancer work/TicTacToe/TicTacToe.hxx
+cstdlib
+-
+iostream
+-
+vector
+-
+
+/Users/eriksalto/OneDrive - Westchester Community College/Freelancer work/TicTacToe/main.cpp
+iostream
+-
+TicTacToe.hxx
+/Users/eriksalto/OneDrive - Westchester Community College/Freelancer work/TicTacToe/TicTacToe.hxx
+
